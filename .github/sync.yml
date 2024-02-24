@@ -1,0 +1,6 @@
+#antify/codex:
+#  - .editorconfig
+
+antify/codex:
+  - source: .editorconfig
+    dest: playground/file-sync/.editorconfig
