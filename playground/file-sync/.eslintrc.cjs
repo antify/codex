@@ -1,11 +1,11 @@
 module.exports = {
-  extends: [
+	extends: [
 		'@nuxt/eslint-config',
 		'plugin:storybook/recommended'
 	],
-  rules: {
+	rules: {
 		'prefer-promise-reject-errors': 'error',
-    'no-extra-semi': 0,
+		'no-extra-semi': 0,
 		'no-unused-vars': 'warn',
 		'vue/html-self-closing': 0,
 		'vue/singleline-html-element-content-newline': 0,
@@ -16,5 +16,5 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': 'warn',
 		'@typescript-eslint/no-misused-promises': 'error',
 		'@typescript-eslint/no-unnecessary-type-assertion': 'error',
-  },
+	},
 };
