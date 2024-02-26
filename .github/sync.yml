@@ -1,6 +1,5 @@
-#antify/codex:
-#  - .editorconfig
-
 antify/codex:
   - source: .editorconfig
     dest: playground/file-sync/.editorconfig
+  - source: .eslintrc.cjs
+    dest: playground/file-sync/.eslintrc.cjs
