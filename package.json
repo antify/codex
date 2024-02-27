@@ -1,0 +1,15 @@
+{
+	"name": "@antify/codex",
+	"version": "1.0.0",
+	"description": "",
+	"license": "MIT",
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@nuxt/eslint-config": "latest",
+		"eslint": "latest",
+		"eslint-plugin-storybook": "latest",
+		"typescript": "latest"
+	}
+}

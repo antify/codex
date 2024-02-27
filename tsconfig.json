@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "preserve",
+		"jsxImportSource": "vue",
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"skipLibCheck": true,
+		"isolatedModules": true,
+		"useDefineForClassFields": true,
+		"strict": true,
+		"noImplicitThis": true,
+		"esModuleInterop": true,
+		"types": [],
+		"verbatimModuleSyntax": true,
+		"allowJs": true,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"playground/**/*.ts",
+		"playground/**/*.d.ts",
+		"playground/**/*.tsx",
+		"playground/**/*.vue"
+	],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}
