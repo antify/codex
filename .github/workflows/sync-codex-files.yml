@@ -1,4 +1,4 @@
-name: Sync Files
+name: Sync @antify/codex files
 on:
   push:
     branches:
