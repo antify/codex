@@ -20,13 +20,9 @@
     "allowSyntheticDefaultImports": true
   },
   "include": [
-    "playground/**/*.ts",
-    "playground/**/*.d.ts",
-    "playground/**/*.tsx",
-    "playground/**/*.vue"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
+    "./*.ts",
+    "./*.d.ts",
+    "./*.tsx",
+    "./*.vue"
   ]
 }
