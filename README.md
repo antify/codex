@@ -37,7 +37,7 @@ detect it, sync the files and create a pull request in your repository.
 Install the following packages to make the eslint configuration work:
 
 ```bash
-pnpm i --save-dev globals @eslint/js typescript-eslint eslint-plugin-vue @stylistic/eslint-plugin @nuxt/eslint-plugin eslint-plugin-storybook
+pnpm i --save-dev globals @eslint/js@latest typescript-eslint@latest eslint-plugin-vue@latest @stylistic/eslint-plugin@latest @nuxt/eslint-plugin@latest eslint-plugin-storybook@latest
 ```
 
 Add the following script to your `package.json`:
