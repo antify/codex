@@ -3,12 +3,16 @@ import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import pluginVue from 'eslint-plugin-vue';
 import stylistic from '@stylistic/eslint-plugin';
+import nuxtEslintPlugin from '@nuxt/eslint-plugin';
+import storybookEslintPlugin from 'eslint-plugin-storybook';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
     plugins: {
       '@stylistic': stylistic,
+      '@nuxt': nuxtEslintPlugin,
+      storybook: storybookEslintPlugin,
     },
     rules: {
       // General rules
@@ -106,6 +110,10 @@ export default [
         'type-based',
       ],
       'vue/singleline-html-element-content-newline': 0,
+      'vue/custom-event-name-casing': [
+        'error',
+        'camelCase',
+      ],
     },
   },
   {
@@ -130,5 +138,10 @@ export default [
         parser: tseslint.parser,
       },
     },
+  },
+  {
+    ignores: [
+      '!.storybook',
+    ],
   },
 ];
