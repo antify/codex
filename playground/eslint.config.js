@@ -4,7 +4,6 @@ import tseslint from 'typescript-eslint';
 import pluginVue from 'eslint-plugin-vue';
 import stylistic from '@stylistic/eslint-plugin';
 import nuxtEslintPlugin from '@nuxt/eslint-plugin';
-import storybookEslintPlugin from 'eslint-plugin-storybook';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -12,7 +11,6 @@ export default [
     plugins: {
       '@stylistic': stylistic,
       '@nuxt': nuxtEslintPlugin,
-      storybook: storybookEslintPlugin,
     },
     rules: {
       // General rules
@@ -141,7 +139,10 @@ export default [
   },
   {
     ignores: [
-      '!.storybook',
+      'dist',
+      'node_modules',
+      '.nuxt',
+      '**/*.d.ts',
     ],
   },
 ];
